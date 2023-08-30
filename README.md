@@ -12,6 +12,12 @@ Welcome to the Cafe Website repository! This is a simple website created using H
 
 You can check out a live demo of the Cafe Website [here](https://alibozkurtkyrd.github.io/cafe_website/).
 
+
+## Screenshots
+
+![Full screen capture](/screenshots/full_pagess.png)
+
+
 ## Installation
 
 1. Clone the repository: `https://github.com/alibozkurtkyrd/cafe_website.git`
