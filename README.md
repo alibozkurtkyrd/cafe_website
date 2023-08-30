@@ -10,11 +10,11 @@ Welcome to the Cafe Website repository! This is a simple website created using H
 
 ## Demo
 
-You can check out a live demo of the Coffee Website [here](https://alibozkurtkyrd.github.io/cafe_website/).
+You can check out a live demo of the Cafe Website [here](https://alibozkurtkyrd.github.io/cafe_website/).
 
 ## Installation
 
-1. Clone the repository: ``
+1. Clone the repository: `https://github.com/alibozkurtkyrd/cafe_website.git`
 2. Navigate to the project directory: `cd cafe_website`
 
 ## Usage
