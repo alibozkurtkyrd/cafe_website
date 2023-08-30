@@ -17,6 +17,9 @@ You can check out a live demo of the Cafe Website [here](https://alibozkurtkyrd.
 
 ![Full screen capture](/screenshots/full_pagess.png)
 
+## Screenrecord
+
+[Watch the Screen Recording](https://drive.google.com/file/d/1LJLWbXlyezedwq2k39erKVtvAF0LvS9L/view?usp=sharing)
 
 ## Installation
 
