@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Cafe web app">
+
+
+  <title>Cafe</title>
+
+  <!--Google Fonts-->
+  <link href='http://fonts.googleapis.com/css?family=Lato:300,400,700,400italic,700italic' rel='stylesheet' type='text/css'>
+
+  <!--CSS-->
+  <link href="style.css" rel="stylesheet">
+
+<!-- google fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Lato:wght@700&display=swap" rel="stylesheet">
+
+  <!-- test silinece TODO -->
+  <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"> -->
+  <!-- <link href="css/font-awesome.min.css" rel="stylesheet"/> -->
+
+  <!-- <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css"> -->
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+</head>
+<body>
+
+  <header id="intro">
+    <div class="container">
+      <div class="top">
+        <figure class="logo">
+          <img src="images/icon.webp"  alt="logo">
+        </figure>
+        <nav class="main-nav" role="navigation">
+          <ul>
+            <li><a href="#">log in</a></li>
+            <li><a href="#">sign up</a></li>
+          </ul>
+        </nav>
+      </div> <!-- top-header -->
+      <div class="text">
+        <h1>Discover Your Perfect <span>Blend</span></h1>
+        <button class="btn-cta">Get Started</button>
+      </div> <!-- text -->
+    </div><!--  container -->
+  </header> <!-- intro -->
+
+
+  <section id="features">
+    <div class="container">
+      <article class="feature">
+        <figure class="fig-image">
+          <img src="images/beans.png"  class="machine" alt="machine Icon">
+        </figure>
+        <figcaption class="fig-body">
+          <h2>Crafted Elegance, Self-Roasted</h2>
+          <p>Experience the art of crafted elegance through our self-roasted coffees. Each cup reflects the passion and mastery of our unique blends.</p>
+        </figcaption> <!-- fig body -->
+      </article> <!-- feature -->
+      <article class="feature">
+        <figure class="fig-image">
+          <img src="images/cub.png" class="coffee" alt="cub Icon">
+        </figure>
+        <figcaption class="fig-body">
+          <h2>From Our Roaster, To Your Cup</h2>
+          <p>Our commitment to quality shines as we take coffee from our roaster and deliver it directly to your cup, ensuring freshness.</p>
+        </figcaption> <!-- fig body -->
+      </article> <!-- feature -->
+      <article class="feature">
+        <figure class="fig-image">
+          <img src="images/beans2.png" class="bean" alt="bean Icon">
+        </figure>
+        <figcaption class="fig-body">
+          <h2>Indulge in the Original Roast</h2>
+          <p>Indulge in the essence of our original roast, capturing the authentic flavors that define coffee's rich heritage and allure.</p>
+        </figcaption> <!-- fig body -->
+      </article> <!-- feature -->
+    </div> <!-- container -->
+  </section> <!-- features -->
+
+
+  
+  <section id="reviews">
+    <div class="slider-container"> 
+        <blockquote class="quote">
+          <q>Absolutely loved the cozy ambiance and the exquisite coffee flavors. A hidden gem that's now my favorite spot!</q>
+          <footer>- Emma Johnson -</footer>
+        </blockquote>
+        <blockquote class="quote">
+          <q>The self-roasted coffee here is a game-changer. It's like a journey for your taste buds. Highly recommended!</q>
+          <footer>- Liam Smith-</footer>
+        </blockquote>
+        <blockquote class="quote">
+          <q>Indulging in the original roast was a delightful experience. The aroma and taste took me on a coffee adventure</q>
+          <footer>- Ava Martinez-</footer>
+        </blockquote>
+    </div>
+    <div class="slider-nav">
+      <button onclick="plusDivs(-1)" class="prev-btn">&lt;</button>
+      <button onclick="plusDivs(1)" class="next-btn">&gt;</button>
+  </div> 
+  </section> <!-- reviews -->
+
+
+  
+  <section id="coffee-types">
+
+      <h2>Dive <span>into Our </span>Coffee Variety</h2>
+      <div class="container">
+        <div class="turkish type">
+          
+          <h3>Turkish Coffee</h3>
+        </div>
+        <div class="cappuccino type">
+          
+          <h3>Cappuccino</h3>
+        </div>
+        <div class="cold-brew type">
+          
+          <h3>Cold Brew</h3>
+        </div>
+        <div class="frappe type">
+          
+          <h3>Frappe</h3>
+        </div>
+        <div class="latte type">
+          
+          <h3>Latte</h3>
+        </div>
+        <div class="macchiato type">
+          
+          <h3>Macchiato</h3>
+        </div>
+        <div class="mocha type">
+          
+          <h3>Mocha</h3>
+        </div>
+        <div class="americano type">
+          
+          <h3>Americano</h3>
+        </div>
+
+      </div> <!-- container -->
+  </section> <!-- cuisines -->
+  <section id="statistics">
+
+    <div class="stat-data">
+      <h3>450,173 <span>Positive Reviews</span></h3>
+    </div>
+    
+    <div class="stat-data">
+      <h3>131,729 <span>Active Users</span></h3>
+    </div>
+
+    <div class="stat-data">
+      <h3>76,251 <span>Photos &#38; Videos</span></h3>
+    </div>
+
+  </section> <!-- statistics -->
+
+
+
+  <footer id="footer">
+    <div class="container">
+      <p>&#169; 2023 All Rights Reserved</p>
+      <div class="footer_social">
+
+        <a href=""><i class="fa-brands fa-facebook" aria-hidden="true"></i></a>
+        <a href=""><i class="fa-brands fa-twitter" aria-hidden="true"></i></a>
+        <a href=""><i class="fa-brands fa-linkedin" aria-hidden="true"></i></a>
+        <a href=""><i class="fa-brands fa-instagram" aria-hidden="true"></i></a>
+        <a href=""><i class="fa-brands fa-pinterest" aria-hidden="true"></i></a>
+      </div>
+    </div> <!-- container -->
+  </footer> <!-- footer -->
+
+  <script>
+    var slideIndex = 1;
+    showDivs(slideIndex);
+    
+    function plusDivs(n) {
+      showDivs(slideIndex += n);
+    }
+    
+    function showDivs(n) {
+      var i;
+      var x = document.getElementsByClassName("quote");
+      if (n > x.length) {slideIndex = 1}
+      if (n < 1) {slideIndex = x.length}
+      for (i = 0; i < x.length; i++) {
+        x[i].style.display = "none";  
+      }
+      x[slideIndex-1].style.display = "block";  
+    }
+    </script>
+</body>
+</html>
